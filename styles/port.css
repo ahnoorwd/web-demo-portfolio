@@ -13,6 +13,22 @@
 .btn a{
     color: white;
 }
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.desciption{
+    color:#757575 ;
+    font-size: 18px;
+    text-align: center;
+
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 
 /* nav-styles here */
 .header{
@@ -68,11 +84,11 @@ nav li a{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 200px;
+    margin: 0 30px 0 200px;
 }
 .banner-img{
     width:585px ;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
     /* height:675px ; */
 }
 .banner-greating{
@@ -86,5 +102,31 @@ nav li a{
 .banner-content{
     width: 585px;
     height: 356px;
+    /* margin-top: 5rem; */
+}
+.contact{
+    margin: 2rem;
 }
 /* nav-styles ends here */
+/* main style is here */
+main{
+    max-width: 1140px;
+    /* height: 550px; */
+    margin: 0 auto;
+}
+/* about-section is stars here */
+
+.about-section{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+   
+    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    text-align: center;
+}
